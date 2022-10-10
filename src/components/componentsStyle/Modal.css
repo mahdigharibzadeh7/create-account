@@ -1,0 +1,75 @@
+.modal-background {
+  @apply absolute
+   bg-black/60 
+   w-full 
+   h-screen 
+   block 
+   z-20 
+   left-0 
+   top-0;
+}
+.modal {
+  @apply z-30
+    absolute
+    top-52
+    left-[40rem]
+    font-Quicksand;
+}
+.modal-container {
+  @apply flex
+  flex-col
+   bg-white 
+  text-black 
+  w-[40vh]
+  h-[40vh]
+  rounded-lg
+  text-lg;
+}
+
+.modal-header {
+  @apply p-3
+    self-end
+    text-slate-600
+    text-2xl;
+}
+
+.close-icon {
+  @apply cursor-pointer;
+}
+
+.modal-main {
+  @apply self-center;
+}
+
+.mainIcon {
+  @apply flex
+  py-5
+  text-6xl
+  justify-center;
+}
+
+.modal-main p {
+  @apply font-bold;
+}
+
+.btn {
+  @apply flex
+    justify-center
+    mt-6;
+}
+.btn button {
+  @apply bg-[salmon]
+    rounded-lg
+    text-white
+    py-2
+    px-10
+    shadow-lg 
+    shadow-[salmon]/40;
+}
+
+.btn button:hover {
+  @apply transition 
+    duration-100 
+    ease-in-out
+    -translate-y-1;
+}

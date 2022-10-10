@@ -1,0 +1,157 @@
+.create-new-account {
+  @apply my-8
+  mx-32
+  select-none;
+}
+
+.wrapper {
+  @apply flex
+  flex-col
+  rounded-2xl
+  shadow-2xl
+  bg-[url("/src/pictures/picture.jpg")]
+  bg-center
+  bg-no-repeat
+  bg-cover
+  w-full
+  h-[91vh];
+}
+
+.nav {
+  @apply flex
+  justify-start
+  my-10
+  mx-20;
+}
+
+.title {
+  @apply text-white
+    font-Quicksand
+    font-bold
+    cursor-pointer
+    mx-20;
+}
+
+.title:hover {
+  @apply text-blue-700;
+}
+
+.title p {
+  @apply flex
+    items-center;
+}
+
+.logo {
+  @apply text-blue-700
+    px-1
+    text-3xl;
+}
+
+.title span {
+  @apply text-blue-700;
+}
+
+.home,
+.join {
+  @apply mx-20
+    font-Quicksand
+    font-bold
+    cursor-pointer
+    text-gray-600;
+}
+
+.home:hover,
+.join:hover {
+  @apply text-gray-300;
+}
+
+.start {
+  @apply mx-36
+    mt-5
+    text-gray-400
+    font-Quicksand
+    font-bold;
+}
+
+.create {
+  @apply mx-36
+    text-white
+    font-Quicksand
+    font-bold
+    text-5xl;
+}
+
+.create span {
+  @apply text-blue-700
+  text-7xl;
+}
+
+.login {
+  @apply mx-36
+  my-5
+  text-gray-400
+  font-Quicksand
+  font-semibold;
+}
+
+.login span {
+  @apply text-blue-700
+    cursor-pointer;
+}
+
+.login span:hover {
+  @apply text-white;
+}
+
+.form-container {
+  @apply mx-36
+  font-Quicksand
+  font-semibold
+  text-sm
+  w-[50%];
+}
+
+.form-container form {
+  @apply flex
+    flex-col;
+}
+
+.input-container {
+  @apply grid
+  grid-cols-2;
+}
+
+.btns {
+  @apply font-Quicksand
+    text-white;
+}
+
+.change-method,
+.create-account {
+  @apply rounded-3xl
+    py-4
+    my-5
+    px-20;
+}
+
+.change-method {
+  @apply ml-36
+    bg-slate-500
+    mr-20
+    shadow-lg 
+    shadow-slate-700/50;
+}
+
+.create-account {
+  @apply bg-cyan-500 
+    shadow-lg 
+    shadow-cyan-500/50;
+}
+
+.change-method:hover,
+.create-account:hover {
+  @apply transition 
+    duration-100 
+    ease-in-out
+    -translate-y-1;
+}

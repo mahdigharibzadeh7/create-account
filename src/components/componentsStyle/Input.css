@@ -1,0 +1,38 @@
+.input {
+  @apply p-2;
+}
+
+.input label {
+  @apply flex
+    text-slate-400
+    absolute
+    z-10
+    pl-5
+    pt-1;
+}
+
+.icon {
+  @apply text-white
+    text-xl
+    absolute
+    z-10
+    pl-[17rem]
+    pt-6;
+}
+
+.input input {
+  @apply rounded-2xl
+    text-xl
+    text-white
+    p-3
+    px-5
+    pt-7
+    w-full
+    bg-gray-800
+    relative
+    focus:focus:outline-none 
+    focus:ring 
+    focus:ring-cyan-500 
+    focus:shadow-md 
+    focus:shadow-cyan-500/50;
+}
